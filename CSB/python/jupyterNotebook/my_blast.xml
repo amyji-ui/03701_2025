@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>core_nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5442391</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>100</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5442391</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>100</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|478247720|gb|KC516835.1|</Hit_id>
+  <Hit_def>Uropsilus gracilis isolate A9 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516835</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|478247704|gb|KC516827.1|</Hit_id>
+  <Hit_def>Uropsilus sp. LY-2012 isolate A1 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516827</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|478247730|gb|KC516840.1|</Hit_id>
+  <Hit_def>Uropsilus soricipes isolate A14 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516840</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|478247712|gb|KC516831.1|</Hit_id>
+  <Hit_def>Uropsilus andersoni isolate A5 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516831</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|478247708|gb|KC516829.1|</Hit_id>
+  <Hit_def>Uropsilus sp. LY-2012 isolate A3 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516829</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1104680275|gb|KX755190.1|</Hit_id>
+  <Hit_def>Uropsilus soricipes isolate Uropso_2 apolipoprotein B (APOB) gene, partial cds</Hit_def>
+  <Hit_accession>KX755190</Hit_accession>
+  <Hit_len>790</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1104680277|gb|KX755191.1|</Hit_id>
+  <Hit_def>Uropsilus soricipes isolate Uropso_5 apolipoprotein B (APOB) gene, partial cds</Hit_def>
+  <Hit_accession>KX755191</Hit_accession>
+  <Hit_len>790</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|478247718|gb|KC516834.1|</Hit_id>
+  <Hit_def>Uropsilus gracilis isolate A8 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516834</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|478247728|gb|KC516839.1|</Hit_id>
+  <Hit_def>Uropsilus soricipes isolate A13 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516839</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|478247710|gb|KC516830.1|</Hit_id>
+  <Hit_def>Uropsilus andersoni isolate A4 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516830</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|478247724|gb|KC516837.1|</Hit_id>
+  <Hit_def>Uropsilus investigator isolate A11 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516837</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|478247722|gb|KC516836.1|</Hit_id>
+  <Hit_def>Uropsilus gracilis isolate A10 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516836</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1104680273|gb|KX755189.1|</Hit_id>
+  <Hit_def>Uropsilus soricipes isolate Uropso_1 apolipoprotein B (APOB) gene, partial cds</Hit_def>
+  <Hit_accession>KX755189</Hit_accession>
+  <Hit_len>756</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|478247726|gb|KC516838.1|</Hit_id>
+  <Hit_def>Uropsilus soricipes isolate A12 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516838</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|478247706|gb|KC516828.1|</Hit_id>
+  <Hit_def>Uropsilus sp. LY-2012 isolate A2 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516828</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1104680269|gb|KX755187.1|</Hit_id>
+  <Hit_def>Uropsilus nivatus isolate Uropgr_1 apolipoprotein B (APOB) gene, partial cds &gt;gi|1104680271|gb|KX755188.1| Uropsilus nivatus isolate Uropgr_2 apolipoprotein B (APOB) gene, partial cds</Hit_def>
+  <Hit_accession>KX755187</Hit_accession>
+  <Hit_len>756</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|478247716|gb|KC516833.1|</Hit_id>
+  <Hit_def>Uropsilus gracilis isolate A7 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516833</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|478247732|gb|KC516841.1|</Hit_id>
+  <Hit_def>Uropsilus soricipes isolate A15 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516841</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.623</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.26335e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|478247714|gb|KC516832.1|</Hit_id>
+  <Hit_def>Uropsilus gracilis isolate A6 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KC516832</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.115</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>5.3719e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCACAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1104680279|gb|KX755192.1|</Hit_id>
+  <Hit_def>Uropsilus sp. 1 KH-2016 isolate Uropsp_6 apolipoprotein B (APOB) gene, partial cds</Hit_def>
+  <Hit_accession>KX755192</Hit_accession>
+  <Hit_len>790</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.115</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>5.3719e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCACAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1104680189|gb|KX755147.1|</Hit_id>
+  <Hit_def>Euroscaptor parvidens isolate Eparvi_1 apolipoprotein B (APOB) gene, partial cds</Hit_def>
+  <Hit_accession>KX755147</Hit_accession>
+  <Hit_len>861</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.098</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.78271e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1143697024|gb|KX164192.1|</Hit_id>
+  <Hit_def>Euroscaptor parvidens voucher ZIN:98916 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>KX164192</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.098</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.78271e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1104680191|gb|KX755148.1|</Hit_id>
+  <Hit_def>Euroscaptor longirostris isolate Eurolo_1 apolipoprotein B (APOB) gene, partial cds &gt;gi|1104680193|gb|KX755149.1| Euroscaptor longirostris isolate Eurolo_2 apolipoprotein B (APOB) gene, partial cds</Hit_def>
+  <Hit_accession>KX755148</Hit_accession>
+  <Hit_len>861</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.098</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.78271e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1143697032|gb|KX164196.1|</Hit_id>
+  <Hit_def>Euroscaptor parvidens voucher ZIN:101901 apolipoprotein B (apoB) gene, partial cds &gt;gi|1143697036|gb|KX164198.1| Euroscaptor parvidens voucher ZIN:101902 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>KX164196</Hit_accession>
+  <Hit_len>951</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.098</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.78271e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1104680185|gb|KX755145.1|</Hit_id>
+  <Hit_def>Euroscaptor malayana isolate Emalay_1 apolipoprotein B (APOB) gene, partial cds</Hit_def>
+  <Hit_accession>KX755145</Hit_accession>
+  <Hit_len>861</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.098</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.78271e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1143697026|gb|KX164193.1|</Hit_id>
+  <Hit_def>Euroscaptor parvidens voucher ZIN:96665 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>KX164193</Hit_accession>
+  <Hit_len>937</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.098</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.78271e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1143697034|gb|KX164197.1|</Hit_id>
+  <Hit_def>Euroscaptor parvidens voucher ZMMU:S-195070 apolipoprotein B (apoB) gene, partial cds &gt;gi|1143697038|gb|KX164199.1| Euroscaptor parvidens voucher ZMMU:S-195071 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>KX164197</Hit_accession>
+  <Hit_len>951</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.098</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.78271e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|950834829|gb|KP995380.1|</Hit_id>
+  <Hit_def>Mogera insularis latouchei voucher ZIN:101813 apolipoprotein B (ApoB) gene, partial cds</Hit_def>
+  <Hit_accession>KP995380</Hit_accession>
+  <Hit_len>958</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.098</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.78271e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTATTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1104680217|gb|KX755161.1|</Hit_id>
+  <Hit_def>Parascaptor leucura isolate Parale_1 apolipoprotein B (APOB) gene, partial cds &gt;gi|1104680219|gb|KX755162.1| Parascaptor leucura isolate Parale_2 apolipoprotein B (APOB) gene, partial cds</Hit_def>
+  <Hit_accession>KX755161</Hit_accession>
+  <Hit_len>861</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.098</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.78271e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1104680221|gb|KX755163.1|</Hit_id>
+  <Hit_def>Parascaptor leucura isolate Parale_3 apolipoprotein B (APOB) gene, partial cds</Hit_def>
+  <Hit_accession>KX755163</Hit_accession>
+  <Hit_len>861</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.098</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.78271e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1104680201|gb|KX755153.1|</Hit_id>
+  <Hit_def>Mogera insularis isolate Minsul_1 apolipoprotein B (APOB) gene, partial cds</Hit_def>
+  <Hit_accession>KX755153</Hit_accession>
+  <Hit_len>861</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.098</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.78271e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTATTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|821185519|gb|KP717258.1|</Hit_id>
+  <Hit_def>Euroscaptor longirostris voucher ZIN 97789 (f.c. Eu long 167) apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>KP717258</Hit_accession>
+  <Hit_len>973</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.098</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.78271e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|821185517|gb|KP717257.1|</Hit_id>
+  <Hit_def>Euroscaptor parvidens voucher ZIN 98917 (f.c. Eu par 15) apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>KP717257</Hit_accession>
+  <Hit_len>959</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.098</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.78271e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|821185515|gb|KP717256.1|</Hit_id>
+  <Hit_def>Mogera insularis latouchei voucher AVA 13-114 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>KP717256</Hit_accession>
+  <Hit_len>960</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.098</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.78271e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTATTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1143697028|gb|KX164194.1|</Hit_id>
+  <Hit_def>Euroscaptor parvidens voucher ZIN:101921 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>KX164194</Hit_accession>
+  <Hit_len>913</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.491</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>AAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>AAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1143697030|gb|KX164195.1|</Hit_id>
+  <Hit_def>Euroscaptor parvidens voucher ZIN:101923 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>KX164195</Hit_accession>
+  <Hit_len>913</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.491</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>AAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>AAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1819700611|gb|MK168890.1|</Hit_id>
+  <Hit_def>Mogera robusta isolate AVA 14-262 voucher ZIN 102801 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>MK168890</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.589</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1819700609|gb|MK168889.1|</Hit_id>
+  <Hit_def>Mogera robusta isolate 606 voucher FSCEATB 606 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>MK168889</Hit_accession>
+  <Hit_len>596</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.589</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1819700627|gb|MK168898.1|</Hit_id>
+  <Hit_def>Mogera robusta isolate AVA 14-286 voucher ZIN 102805 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>MK168898</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.589</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1819700625|gb|MK168897.1|</Hit_id>
+  <Hit_def>Mogera robusta isolate AVA 16-112 voucher ZIN 104247 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>MK168897</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.589</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1819700607|gb|MK168888.1|</Hit_id>
+  <Hit_def>Mogera robusta isolate 607 voucher FSCEATB 607 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>MK168888</Hit_accession>
+  <Hit_len>595</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.589</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1819700623|gb|MK168896.1|</Hit_id>
+  <Hit_def>Mogera robusta isolate AVA 16-137 voucher ZIN 104259 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>MK168896</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.589</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1819700617|gb|MK168893.1|</Hit_id>
+  <Hit_def>Mogera robusta isolate AVA 16-152 voucher ZIN 104271 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>MK168893</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.589</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1819700603|gb|MK168886.1|</Hit_id>
+  <Hit_def>Mogera robusta isolate 2117 voucher FSCEATB 2117 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>MK168886</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.589</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1819700629|gb|MK168899.1|</Hit_id>
+  <Hit_def>Mogera robusta isolate AVA 14-230 voucher ZIN 102795 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>MK168899</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.589</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1819700631|gb|MK168900.1|</Hit_id>
+  <Hit_def>Mogera robusta isolate AVA 14-210 voucher ZIN 102785 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>MK168900</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.589</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1819700613|gb|MK168891.1|</Hit_id>
+  <Hit_def>Mogera robusta isolate AVA 16-180 voucher ZIN 104279 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>MK168891</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.589</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1819700605|gb|MK168887.1|</Hit_id>
+  <Hit_def>Mogera robusta isolate 707 voucher FSCEATB 707 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>MK168887</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.589</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1819700621|gb|MK168895.1|</Hit_id>
+  <Hit_def>Mogera robusta isolate AVA 16-150 voucher ZIN 104269 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>MK168895</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.589</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1819700619|gb|MK168894.1|</Hit_id>
+  <Hit_def>Mogera robusta isolate AVA 16-151 voucher ZIN 104270 apolipoprotein B (apoB) gene, partial cds</Hit_def>
+  <Hit_accession>MK168894</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.589</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>3.39004e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCCCAATTCCTTTGGATGCATTTTATGTGTTTATCAATCATAACATCAATTCTT</Hsp_qseq>
+      <Hsp_hseq>TTAAGTGTAAAGACTCAGTATAAGAAAAACAAAGACAAGCATTCCATCTCAATTCCTTTGGATGTGTTTTATGTGTTTATGAATCATAACATCAATTCTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||  |||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>118620752</Statistics_db-num>
+      <Statistics_db-len>1895352082</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

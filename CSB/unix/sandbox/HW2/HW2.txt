@@ -1,0 +1,196 @@
+HW2
+Amy JI
+Sep 11th, 2025
+
+Q1
+1.10.2 : Write a script taking as input the file name and ID of individual, and return the number of records for that ID. In the same
+script, I wrote a function that returns the number of times each individual was sampled.
+// First create a script file callede count_Baboons.sh
+
+	// Script
+		file=$1
+		id=$2
+
+		count=$(cut -f 1 $file | grep -c -w $id)
+
+		echo "The total number of occurance for that particular ID 			is:" $count
+
+		IDS=$(tail -n +2 $file | cut -f 1 | sort -n | uniq)
+		for ID in $IDS
+		do
+        		id_count=$(cut -f 1 $file | grep -c -w $ID)
+        		echo "ID:" $ID "counts:" $id_count
+		done
+	
+	// End of Script
+// Calling the script (the return for q2 and q3 are combined because I was too lazy to create a second file...)
+(base) jiayiji@MacBook-Pro-301 HW2 % bash count_Baboons.sh ../../data/Gesquiere2011_data.csv 27
+The total number of occurance for that particular ID is: 5
+ID: 1 counts: 10
+ID: 2 counts: 2
+...
+ID: 127 counts: 13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.10.3: Write a script that prints the number of rows and cols for each file and find the file with largest number of rows and cols.
+// First create a script file callede plant_Pollinator.sh
+	// Script
+		directory=$1
+
+		maxRow=0
+		maxCol=0
+		fileMaxRows=""
+		fileMaxCols=""
+
+		for file in "$directory"/*
+		do
+        		numRows=$(cat $file | wc -l )
+        		numCols=$(head -n 1 $file | wc -c)
+        		echo $file "has:" $numRows "rows, and" $numCols 					"columns."
+
+        		if [ $numRows -gt $maxRow ];
+        		then
+                		maxRow=$numRows
+                		fileMaxRows=$file
+        		fi
+
+        		if [ $numCols -gt $maxCol ];
+        		then
+                		maxCol=$numCols
+                		fileMaxCols=$file
+        		fi
+		done
+
+		echo
+		echo "File with most rows is:" $fileMaxRows  ",which has" 			$maxRow "rows."
+		echo "File with most cols is:" $fileMaxCols ",which has" 				$maxCol "columns."
+	// End of Script
+// Calling the script will return a list of file names and their corresponding number of rows and cols. It will also find the file(s) with the largest number of rows and cols.
+(base) jiayiji@MacBook-Pro-301 HW2 % bash plant_Pollinator.sh ../../data/Saavedra2013
+../../data/Saavedra2013/n1.txt has: 97 rows, and 161 columns.
+...
+../../data/Saavedra2013/n8.txt has: 19 rows, and 67 columns.
+../../data/Saavedra2013/n9.txt has: 12 rows, and 45 columns.
+
+File with most rows is: ../../data/Saavedra2013/n58.txt ,which has 678 rows.
+File with most cols is: ../../data/Saavedra2013/n56.txt ,which has 415 columns.
+
+1.10.4: Write a script that takes as input file name and column number, and returns Column name, Number of distinct values, Min and Max.
+// First create a script called buzzard_info.sh
+	// Script
+		file=$1
+		column=$2
+
+		col_name=$(cut -d ","  -f $column $file | head -n 1)
+		echo "Column name:"
+		echo $col_name
+
+		distinct=$(cut -d ","  -f $column $file | sort | uniq | wc -				l )
+		echo "Number of distinct values:"
+		echo $distinct
+
+		Min=$(cut -d "," -f $column $file | tail -n +2 | sort -nr | 			head -n 1)
+		Max=$(cut -d "," -f $column $file | tail -n +2 | sort -r | 			head -n 1)
+		echo $Min
+		echo $Max
+	// End of Script
+// Calling it in bash gives the following return.
+(base) jiayiji@MacBook-Pro-301 HW2 % bash buzzard_info.sh ../../data/Buzzard2015_data.csv 8
+Column name:
+basal.area
+Number of distinct values:
+286
+26085.15
+9991.067625
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q2
+1. Write a script to count all lines that match a given sequence from a certain fasta file.
+// I first created a new directory named HW2 and saved all relevant works in there.
+(base) jiayiji@MacBook-Pro-202 ~ % cd CSB/unix/sandbox 
+(base) jiayiji@MacBook-Pro-202 sandbox % mkdir HW2
+(base) jiayiji@MacBook-Pro-202 sandbox % cd HW2
+// Then I created a script file called count_sequence.sh
+(base) jiayiji@MacBook-Pro-202 HW2 % touch count_sequence.sh
+(base) jiayiji@MacBook-Pro-202 HW2 % nano count_sequence.sh
+	// Script:
+		seq=$1
+		file_name=$2
+		grep $seq ~/CSB/unix/sandbox/HW2/$file_name -c
+	// End of Script
+// To call the script in command.
+(base) jiayiji@MacBook-Pro-202 HW2 % bash count_sequence.sh 'GAATTC' Yeast_Genome.fa
+3885	
+(base) jiayiji@MacBook-Pro-202 HW2 % bash count_sequence.sh 'ATCCGAC' Yeast_Genome.fa
+232
+
+2. Write a script that finds the genes with the highest expression level, and counts the number of genes with a "0" expression level, and return the lowest non-zero expression level for a given column. 
+
+	// Script:
+		
+		file=$1
+		column=$2
+
+		var1=$(tail -n +2 $file | cut -f $column | sort -nr | head -n 			1)
+
+		tmp=$(mktemp)
+		cut -f 1,$column $file > $tmp
+		name=$(grep $var1 $tmp | cut -f 1)
+
+		zeroCount=$(tail -n +2 $file| cut -f $column | grep -c "0")
+
+		nonZero=$(tail -n +2 $file | cut -f $column | grep -v "0" | 				sort -n | head -n 1)
+
+		echo $name "has the highest number of occurance" $var1
+		echo "There are" $zeroCount "gene that has zero expression"
+		echo "The lowest non-zero gene expression is:" $nonZero
+	
+	//End of Script
+
+
+
+
+// Calling the script in the command
+(base) jiayiji@MacBook-Pro-202 HW2 % bash expression.sh Pseudomonas_RNAseq.txt 4
+PA14_08650,PA14_08660,PA14_08670 has the highest number of occurance 38333
+There are 939 gene that has zero expression
+The lowest non-zero gene expression is: 1
+(base) jiayiji@MacBook-Pro-202 HW2 % bash expression.sh Pseudomonas_RNAseq.txt 3
+PA14_08610 has the highest number of occurance 58101
+There are 874 gene that has zero expression
+The lowest non-zero gene expression is: 1
+
